@@ -31,9 +31,22 @@ public class Lec05Main {
     }
   }
 
+  private boolean startsWithA(Object obj){
+    if(obj instanceof String){
+      return ((String)obj).startsWith("A");
+    }else return false;
+  }
+
   public static void main(String[] args) {
   }
 
+  private void judgeNumber(int number){
+    if(number == 1 || number == 0 || number == -1){
+      System.out.println("어디서 많이 본 숫자입니다");
+    }else{
+      System.out.println("1, 0, -1이 아닙니다");
+    }
+  }
   private void judgeNumber2(int number) {
     if (number == 0) {
       System.out.println("주어진 숫자는 0입니다");

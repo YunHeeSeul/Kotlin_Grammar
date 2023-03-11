@@ -1,4 +1,4 @@
-package lec11
+package lec12
 
 class Lec12Main {
 }

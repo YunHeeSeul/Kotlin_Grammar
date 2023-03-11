@@ -3,7 +3,8 @@ package com.lannstark.lec10;
 public class JavaCat extends JavaAnimal {
 
   public JavaCat(String species) {
-    super(species, 4);
+    //생성자는 species 하나만 받음
+    super(species, 4); //다리 개수 입력해줌
   }
 
   @Override
